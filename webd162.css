@@ -1,0 +1,70 @@
+/*
+Assignment: Week 9
+Author: Ben Ward
+Date: 10/25/2016
+Filename: webd162.css
+Description: Stylesheets for week 6
+*/
+
+h1{
+	color: RED;
+	font-family: cursive;
+}
+h1 img{
+	margin-top: -.5em;
+}
+#wrapper {
+	padding: 0 .25em .5em;
+	width: 100%;
+	max-width: 1024px;
+}
+#about-page * li.about-link, #proposal-page * li.proposal-link {
+background-color: yellow;
+}
+nav ul li {
+	font-size: small;
+	font-family: sans-serif;
+	display: inline;
+	list-style-type: none;
+	padding-right: 20px;
+	font-variant: small-caps;
+}
+nav ul li a:link {
+	text-decoration: none;
+}
+.leftcol {
+	width: 75%;
+	float: left;
+}
+article ol li {
+	list-style-type: upper-alpha;
+	padding: .5em .25em;
+	margin-left: -.25em;
+}
+article ol li:nth-child(odd):first-line {
+	letter-spacing: .125em;
+	color: #6C06E0;
+}
+aside{
+	font-family: roboto;
+	font-style: italic;
+	background-color: rgba(255,0,0,0.5);
+	padding: 1em;
+	border-radius: 1em;
+	width: 20%;
+	float: right;
+}
+aside h2{
+	font-family: source-serif-pro;
+}
+footer {
+	border-top: 1px solid red;
+	font-size: small;
+	font-family: monospace;
+}
+nav ul li a:hover { 
+font-weight: bold; 
+}
+.clearfloat {
+	clear: both;
+}
